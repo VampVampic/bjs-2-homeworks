@@ -43,7 +43,7 @@ function differenceMaxMinWorker(...arr) {
 
 	let min = Math.min(...arr);
 	let max = Math.max(...arr);
-  let difference = max - min;
+	let difference = max - min;
 
 	return difference;
 }
@@ -64,7 +64,7 @@ function differenceEvenOddWorker(...arr) {
 		}
 	}
 
-  let difference = sumEvenElement - sumOddElement;
+	let difference = sumEvenElement - sumOddElement;
 
 	return difference;
 }
@@ -84,7 +84,7 @@ function averageEvenElementsWorker(...arr) {
 		}
 	}
 
-  let average = sumEvenElement / countEvenElement;
+	let average = sumEvenElement / countEvenElement;
 
 	return average;
 }
